@@ -2,7 +2,9 @@ package main
 
 import "fmt"
 
+const autor = "Danny Macea (dmacea)"
+
 func main() {
-	fmt.Println("Hola Mundo Por: Danny Macea - API GO JSON")
+	fmt.Printf("Hola Mundo Por: %s - API GO JSON\n", autor)
 
 }
